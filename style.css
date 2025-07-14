@@ -97,6 +97,7 @@ footer {
 
 .recipe-card:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .featured-recipes {
@@ -148,7 +149,7 @@ footer {
     padding: 0 2em;
   }
   .browse-btn {
-    width: 10em;
+    width: 8em;
     font-size: medium;
     padding: 0 1em;
   }
@@ -170,7 +171,7 @@ footer {
   }
   .browse-btn {
     border-radius: 20em;
-    width: 8em;
+    width: 10em;
     font-size: 16px;
     /* border: 1px solid black; */
     padding: 5px 10px;
@@ -181,12 +182,12 @@ footer {
     width: 20em;
   }
   .browse-input {
-    font-size: 16px;
+    font-size: 12px;
     width: 20em;
   }
 
   .browse-btn {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -360,7 +361,9 @@ footer {
   width: 5em;
   height: auto;
 }
-
+.random-container {
+  margin: 10em;
+}
 
 .mealcard_container {
   /* let several cards sit next to each other and wrap on tiny screens */
@@ -548,7 +551,35 @@ main h1 {
   background-color: #efc81a;
   text-align: center;
   border-radius: 2em;
+  cursor: pointer;
   /* gap: 1em; */
+}
+.area-card:hover {
+  transform: scale(1.05);
+}
+.ingred-card {
+  max-width: fit-content;
+  padding: 0 1em;
+  background-color: #efc81a;
+  text-align: center;
+  border-radius: 2em;
+  cursor: pointer;
+  /* gap: 1em; */
+}
+.ingred-card:hover {
+  transform: scale(1.05);
+}
+.category-card {
+  max-width: fit-content;
+  padding: 0 1em;
+  background-color: #efc81a;
+  text-align: center;
+  border-radius: 2em;
+  cursor: pointer;
+  /* gap: 1em; */
+}
+.category-card:hover {
+  transform: scale(1.05);
 }
 
 .modal h2 {
@@ -568,6 +599,7 @@ main h1 {
 .mealcard {
   max-height: 22em;
 }
+
 .random-container {
   width: 100%;
   margin: auto;
