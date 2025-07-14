@@ -115,7 +115,7 @@ footer {
   /* border: 1px solid red; */
 }
 .browse_by h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 2em;
 }
 .browse-input:focus {
@@ -148,7 +148,7 @@ footer {
     padding: 0 2em;
   }
   .browse-btn {
-    width: 8em;
+    width: 10em;
     font-size: medium;
     padding: 0 1em;
   }
@@ -170,8 +170,8 @@ footer {
   }
   .browse-btn {
     border-radius: 20em;
-    width: 5em;
-    font-size: 12px;
+    width: 8em;
+    font-size: 16px;
     /* border: 1px solid black; */
     padding: 5px 10px;
   }
@@ -181,12 +181,12 @@ footer {
     width: 20em;
   }
   .browse-input {
-    font-size: 12px;
+    font-size: 16px;
     width: 20em;
   }
 
   .browse-btn {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -545,7 +545,7 @@ main h1 {
   justify-content: center;
 }
 .area-card {
-  max-width: 12%;
+  max-width: fit-content;
   padding: 0 1em;
   background-color: #efc81a;
   text-align: center;
