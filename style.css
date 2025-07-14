@@ -570,3 +570,7 @@ main h1 {
 .mealcard {
   max-height: 22em;
 }
+.random-container {
+  width: 100%;
+  margin: auto;
+}
