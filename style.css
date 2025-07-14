@@ -360,9 +360,7 @@ footer {
   width: 5em;
   height: auto;
 }
-.random-container {
-  margin: 10em;
-}
+
 
 .mealcard_container {
   /* let several cards sit next to each other and wrap on tiny screens */
