@@ -689,6 +689,19 @@ for (const meal of meals) {
     div.classList.add('area-card')
     div.innerHTML = area;
     browsebyarea.append(div)
+    div.addEventListener('click', () => {
+
+        console.log(div)
+        filter = "filter";
+
+        result_area = "byarea";
+        fetch_character = "a";
+
+        const mealGrid = document.querySelector(`#${result_area}_results .mealGrid`);
+        mealGrid.innerHTML = ""
+        const search = area
+        getRecipebyname(search, mealGrid);
+    })
 }
 
 const browsebyingred = document.querySelector('.browsebyingred')
@@ -696,9 +709,22 @@ const browsebyingred = document.querySelector('.browsebyingred')
 for (const ingred of ingredients) {
     let ing = ingred.strIngredient
     const div = document.createElement("div")
-    div.classList.add('area-card')
+    div.classList.add('ingred-card')
     div.innerHTML = ing;
     browsebyingred.append(div)
+    div.addEventListener('click', () => {
+
+        console.log(div)
+        filter = "filter";
+
+        result_area = "byingred";
+        fetch_character = "i";
+
+        const mealGrid = document.querySelector(`#${result_area}_results .mealGrid`);
+        mealGrid.innerHTML = ""
+        const search = ing
+        getRecipebyname(search, mealGrid);
+    })
 }
 
 const browsebycategory = document.querySelector('.browsebycategory')
@@ -706,9 +732,22 @@ const browsebycategory = document.querySelector('.browsebycategory')
 for (const category of categories) {
     let cat = category.strCategory
     const div = document.createElement("div")
-    div.classList.add('area-card')
+    div.classList.add('category-card')
     div.innerHTML = cat;
     browsebycategory.append(div)
+    div.addEventListener('click', () => {
+
+        console.log(div)
+        filter = "filter";
+
+        result_area = "bycategory";
+        fetch_character = "c";
+
+        const mealGrid = document.querySelector(`#${result_area}_results .mealGrid`);
+        mealGrid.innerHTML = ""
+        const search = cat
+        getRecipebyname(search, mealGrid);
+    })
 }
 
 const browsebyname = document.querySelector('.browsebyname')
