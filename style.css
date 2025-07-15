@@ -15,6 +15,8 @@ body {
     font-size: 2rem;
   }
 }
+.browseby_img:hover {
+  transform: scale(1.05);
 
 header {
   background-color: #232120;
