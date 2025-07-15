@@ -15,10 +15,15 @@ body {
     font-size: 2rem;
   }
 }
+.browseby_img {
+  transition: all 1s linear;
+}
+
 .browseby_img:hover {
-  transform: scale(1.05);
+  transform: rotate(90deg);
   cursor: pointer;
 }
+
 
 header {
   background-color: #232120;
