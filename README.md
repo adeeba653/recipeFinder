@@ -2,7 +2,7 @@
 This is a Recipe Finder Web App using HTML, CSS, Tailwind CSS component Library, and Vanilla JavaScript. This project involved real-world API integration and interactive UI design, with a focus on user experience and dynamic data handling
 
 # Key Features:
- -Recipe Search Functionality:
+ - Recipe Search Functionality:
  Users can search for recipes via:
  -- Name
  -- Country/Area of origin
